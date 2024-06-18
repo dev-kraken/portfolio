@@ -1,0 +1,115 @@
+---
+title: "Configuring SSH for Multiple Git Accounts (GitHub and GitLab)"
+description: "Learn how to configure SSH for multiple Git accounts, including GitHub and GitLab, to seamlessly manage different repositories using separate SSH keys."
+keywords: ["SSH", "Git", "GitHub", "GitLab", "Multiple Accounts", "SSH Configuration", "Git Setup"]
+date: "2024-06-19"
+image: /images/blog/blog-post-4.jpg
+authors:
+  - devkraken
+---
+
+Managing multiple Git accounts can be challenging, but by using SSH keys, you can easily switch between different accounts for GitHub and GitLab. Here's a step-by-step guide to help you set it up.
+
+## Step 1: Generate SSH Keys
+
+First, generate SSH keys for each account if you haven’t done so already. Open your terminal and run the following commands:
+
+### For GitHub:
+
+```sh
+ssh-keygen -t rsa -b 4096 -C "your_github_email@example.com" -f ~/.ssh/id_rsa_github
+```
+### For GitLab:
+
+```sh
+ssh-keygen -t rsa -b 4096 -C "your_github_email@example.com" -f ~/.ssh/id_rsa_github
+```
+
+## Step 2: Add SSH Keys to the SSH Agent
+
+Start the SSH agent and add your new SSH keys:
+
+```sh
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa_github
+ssh-add ~/.ssh/id_rsa_gitlab
+```
+
+### Step 3: Add SSH Keys to GitHub and GitLab
+
+Copy the SSH keys to your clipboard:
+
+### For GitHub:
+
+```sh
+cat ~/.ssh/id_rsa_github.pub
+```
+
+### For GitLab:
+
+```sh
+cat ~/.ssh/id_rsa_gitlab.pub
+```
+
+Go to GitHub and GitLab and add the respective keys to your SSH keys settings.
+
+### Step 4: Configure SSH Config
+
+Create or edit the SSH config file:
+
+```sh
+nvim ~/.ssh/config
+```
+Add the following configurations:
+
+```sh
+# GitHub
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_rsa_github
+
+# GitLab
+Host gitlab.com
+  HostName gitlab.com
+  User git
+  IdentityFile ~/.ssh/id_rsa_gitlab
+```
+### Step 5: Clone Repositories Using SSH
+
+When cloning repositories, use the SSH URLs provided by GitHub and GitLab:
+
+### GitHub:
+
+```sh
+git clone git@github.com:username/repository.git
+```
+
+### GitLab:
+
+```sh
+git clone git@gitlab.com:username/repository.git
+```
+### Step 6: Configure Git User Information
+
+Set the Git user information for each repository to match the account:
+
+## For GitHub repository:
+
+```sh
+cd path/to/github/repo
+git config user.name "Your GitHub Name"
+git config user.email "your_github_email@example.com"
+```
+
+## For GitLab repository:
+
+```sh
+cd path/to/gitlab/repo
+git config user.name "Your GitLab Name"
+git config user.email "your_gitlab_email@example.com"
+```
+
+### Summary
+
+By following these steps, you can manage multiple SSH keys for GitHub and GitLab, ensuring that the correct key is used for each service. This setup allows you to seamlessly work with multiple Git accounts without any hassle.
