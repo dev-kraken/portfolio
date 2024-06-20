@@ -29,6 +29,7 @@ const Testimonials = () => {
                           className="size-full rounded-full border"
                           src={item.image}
                           alt={item.name}
+                          layout="fixed"
                         />
                       </span>
                       <div>
