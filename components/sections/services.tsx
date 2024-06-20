@@ -34,9 +34,9 @@ const Services = () => {
                     <div className="relative flex size-12 rounded-2xl border border-border shadow-sm *:relative *:m-auto *:size-6 ">
                       <Icon className="text-muted-foreground" />
                     </div>
-                    <h4 className="my-4 font-medium text-gray-300">
+                    <h2 className="my-4 font-medium text-gray-300">
                       {feature.title}
-                    </h4>
+                    </h2>
                     <p className="pb-6 text-muted-foreground">
                       {feature.description}
                     </p>

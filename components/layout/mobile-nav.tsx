@@ -11,6 +11,7 @@ const MobileNav = () => {
     <>
       <button
         onClick={() => setOpen(!open)}
+        aria-label="open menu"
         className={cn(
           "fixed right-2 top-2.5 z-50 rounded-full p-2 transition-colors duration-200 hover:bg-muted focus:outline-none active:bg-muted md:hidden",
           open && "hover:bg-muted active:bg-muted",

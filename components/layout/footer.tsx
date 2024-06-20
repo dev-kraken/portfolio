@@ -16,17 +16,9 @@ const Footer = () => {
               rel="noreferrer"
               target="_blank"
               className="font-medium underline underline-offset-4"
+              aria-label="Git-Hub Dev Kraken"
             >
               Dev Kraken
-            </Link>
-            . Hosted on{" "}
-            <Link
-              href="https://vercel.com"
-              target="_blank"
-              rel="noreferrer"
-              className="font-medium underline underline-offset-4"
-            >
-              Vercel
             </Link>
           </p>
 
@@ -37,6 +29,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
               className="font-medium underline underline-offset-4"
+              aria-label="Git Hub Dev Kraken"
             >
               <GithubIcon className="size-5" />
             </Link>
