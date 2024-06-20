@@ -11,9 +11,9 @@ const HeroLanding = () => {
       <Illustration />
       <div className="container z-10 flex max-w-6xl flex-col items-start gap-10 text-start">
         <h2 className="text-balance text-start font-urban text-5xl font-bold leading-none tracking-normal sm:text-5xl md:text-6xl lg:text-[100px] lg:leading-[7rem]">
-          <span className="flex gap-10">
+          <span className="flex gap-4 lg:gap-8">
             Hi there !
-            <Sparkle className="size-24 animate-spin text-[#6366f1]" />
+            <Sparkle className="size-12 animate-spin text-[#6366f1] lg:size-24" />
           </span>
           I&#39;m{" "}
           <span className="text-gradient_indigo-purple font-extrabold">
