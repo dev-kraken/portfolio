@@ -1,7 +1,6 @@
 import React from "react";
 import Section from "@/components/shared/section";
 import HeaderSection from "@/components/shared/header-section";
-import { SpellCheck } from "lucide-react";
 import { HowEmailCheckerWork } from "@/app/email-checker/_components/content/how-email-checker-work";
 import { Icons } from "@/components/shared/icons";
 

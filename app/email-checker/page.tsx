@@ -6,7 +6,10 @@ import FaqSectionEmail from "@/app/email-checker/_components/faq-section-email";
 import MaxWidthWrapper from "@/components/shared/max-width-wrapper";
 import { CheckCircle } from "lucide-react";
 import InfoEmailChecker from "@/app/email-checker/_components/info-email-checker";
-import { constructMetadata } from "@/lib/utils";
+import { cn, constructMetadata } from "@/lib/utils";
+import Link from "next/link";
+import { badgeVariants } from "@/components/ui/badge";
+
 export const metadata = constructMetadata({
   title: "Temporary Email Detector - Verify Authenticity of Email Addresses",
   description:
@@ -21,7 +24,7 @@ const Page = () => {
   return (
     <main className="h-full">
       <MaxWidthWrapper className="flex flex-wrap items-center justify-center gap-20 overflow-auto py-10">
-        <Section className="mx-auto overflow-auto">
+        <Section className="mx-auto overflow-auto text-center">
           <HeaderSection label="FREE TOOL" title="Email Checker" />
           <h1 className="mx-auto mt-4 w-full text-center font-urban text-2xl font-semibold sm:w-9/12">
             <span className="text-gradient_indigo-purple font-extrabold">
@@ -44,6 +47,16 @@ const Page = () => {
             </span>
           </div>
           <FormEmailChecker />
+          <Link
+            href="/blog/free-temporary-email-checker-api"
+            aria-label="Api Documentation"
+            className={cn(
+              badgeVariants({ variant: "outline" }),
+              "mt-5 text-sm",
+            )}
+          >
+            Our Api documentation
+          </Link>
         </Section>
         <InfoEmailChecker />
         <FaqSectionEmail />

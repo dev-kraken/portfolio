@@ -30,7 +30,7 @@ const ResultEmailChecker = ({ data }: ResultEmailCheckerProps) => {
         {data?.subdomain} ({data?.ip_address})
       </TableCaption>
       <TableHeader>
-        <TableRow>
+        <TableRow className="hover:bg-gray-50/1">
           <TableHead className="text-gray-300">Domain</TableHead>
           <TableHead className="text-gray-300">Email</TableHead>
           <TableHead className="text-gray-300">Disposable</TableHead>
@@ -41,7 +41,7 @@ const ResultEmailChecker = ({ data }: ResultEmailCheckerProps) => {
         </TableRow>
       </TableHeader>
       <TableBody>
-        <TableRow className="text-center">
+        <TableRow className="hover:bg-gray-50/1 text-center">
           <TableCell>
             <span>{data?.domain}</span>
           </TableCell>

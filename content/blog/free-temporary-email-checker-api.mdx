@@ -1,0 +1,127 @@
+---
+title: "Introducing Our Temporary Email Checker API Free"
+keywords: ["Temporary Email Checker API", "Disposable Email Detection", "Email Validation API", "Real-time Email Verification", "Email Quality Assurance", "Prevent Fake Emails", "API for Email Verification", "Temporary Email Identification", "Email Address Validation", "Prevent Email Bounces", "API Integration Guide", "JavaScript Email Checker", "PHP Email Checker", "Comprehensive Email Database", "Email Provider Detection", "Valid Email Addresses", "High-quality Email Lists", "Email Syntax Errors", "MX Records Verification", "Email Server Configuration"]
+date: "2024-06-27"
+image: /images/blog/blog-post-5.jpg
+authors:
+  - devkraken
+---
+
+## Introduction
+
+In today's digital age, the use of temporary emails has become increasingly common. While these temporary email services offer convenience for users who want to avoid spam, they pose significant challenges for businesses trying to maintain a clean and active email list. To tackle this issue, we are excited to introduce our **Temporary Email Checker API**.
+
+## What is the Temporary Email Checker API?
+
+Our API is designed to help businesses and developers identify and filter out temporary email addresses from their user database. By integrating our API, you can ensure that the email addresses collected are legitimate and belong to actual users, enhancing the quality of your communication and reducing the risk of email bounces.
+
+## Key Features
+
+- **Real-time Detection**: Quickly identify temporary email addresses in real-time during user sign-up or form submissions.
+- **Comprehensive Database**: Our API uses a continuously updated database of known temporary email providers to ensure accurate detection.
+- **Easy Integration**: Simple and flexible integration options for various programming languages and platforms.
+- **Detailed Responses**: Receive detailed information about the email address, including its validity and whether it is a known temporary email provider.
+
+## How to Use the Temporary Email Checker API
+
+### Step 1: Get the API URL
+
+```text
+https://api.devkraken.com/verify-email
+```
+
+### Step 2: Make an API Request
+
+Using your API key, you can make a request to our endpoint. Here is an example using cURL:
+
+```bash
+curl -X POST https://api.devkraken.com/verify-email \
+     -H "Content-Type: application/json" \
+     -d '{"email": "test@0-mail.com"}'
+```
+### Step 3: Interpret the Response
+
+The API will return a JSON response with the status of the email address. Here’s an example response:
+
+```json
+{
+	"is_disposable": true,
+	"has_mx_records": true,
+	"can_receive_email": true,
+	"errors": {
+		"syntax": null,
+		"disposable_email": "Email is from a disposable email provider",
+		"mx_records": null,
+		"receive_email": null
+	},
+	"ip_address": "103.224.182.207",
+	"domain": "0-mail.com",
+	"subdomain": "mail.0-mail.com"
+}
+```
+
+* `is_disposable`: Indicates if the email is from a disposable email provider.
+* `has_mx_record`s`: Indicates if the email domain has MX (Mail Exchange) records.
+* `can_receive_email`: Indicates if the email address can receive emails.
+* `errors`: Contains` specific error messages or null if no errors are found.
+    * `syntax`: Error related to the email syntax.
+    * `disposable_email`: Error if the email is from a disposable provider.
+    * `mx_records`: Err`or related to MX records.
+    * `receive_email`: Error if the email cannot receive emails.
+* `ip_address`: `The IP address associated with the email.
+* `domain`: The domain of the email address.
+* `subdomain`: The subdomain of the email address.
+
+### Integration Examples
+
+#### JavaScript
+
+```javascript
+const axios = require('axios');
+
+const checkEmail = async (email: string) => {
+  try {
+    const response = await axios.post(
+      'http://localhost:3000/check-email',
+      { email },
+      {headers: {'Content-Type': 'application/json'}}
+    );
+    console.log(response.data);
+  } catch (error) {
+    console.error('Error checking email:', error);
+  }
+};
+
+await checkEmail('test@0-mail.com');
+```
+
+#### PHP
+
+```php
+<?php
+$ch = curl_init();
+
+curl_setopt($ch, CURLOPT_URL, 'https://api.devkraken.com/verify-email');
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+curl_setopt($ch, CURLOPT_POST, 1);
+curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode(['email' => 'test@0-mail.com']));
+curl_setopt($ch, CURLOPT_HTTPHEADER, [
+    'Content-Type: application/json',
+]);
+
+$result = curl_exec($ch);
+if (curl_errno($ch)) {
+    echo 'Error:' . curl_error($ch);
+}
+curl_close($ch);
+
+echo $result;
+?>
+```
+
+## Repo link
+[https://github.com/dev-kraken/advanced-email-checker](https://github.com/dev-kraken/advanced-email-checker)
+
+### Conclusion
+
+The Temporary Email Checker API is a powerful tool for businesses and developers looking to maintain a high-quality email list and improve communication with their users. By integrating our API, you can effectively filter out temporary email addresses and ensure that your messages reach genuine users.
