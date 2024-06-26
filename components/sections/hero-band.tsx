@@ -1,49 +1,28 @@
-"use client";
+import React, { useEffect, useRef, useState } from "react";
 import * as THREE from "three";
-import React, {
-  ForwardRefExoticComponent,
-  MemoExoticComponent,
-  RefAttributes,
-  useEffect,
-  useRef,
-  useState,
-} from "react";
-import { Canvas, extend, useThree, useFrame } from "@react-three/fiber";
-import { useGLTF, useTexture } from "@react-three/drei";
 import {
   BallCollider,
   CuboidCollider,
-  Physics,
   RigidBody,
   RigidBodyAutoCollider,
-  RigidBodyProps,
   RigidBodyTypeString,
   useRopeJoint,
   useSphericalJoint,
 } from "@react-three/rapier";
+import { useGLTF, useTexture } from "@react-three/drei";
+import { extend, useFrame, useThree } from "@react-three/fiber";
 import { MeshLineGeometry, MeshLineMaterial } from "meshline";
-
-extend({ MeshLineGeometry, MeshLineMaterial });
-useGLTF.preload("/tag.glb");
-useTexture.preload("/band.jpg");
-
-export default function Kraken3dTag() {
-  return (
-    <Canvas camera={{ position: [0, 0, 13], fov: 25 }}>
-      <ambientLight intensity={Math.PI} />
-      <Physics interpolate gravity={[0, -40, 0]} timeStep={1 / 60}>
-        <Band />
-      </Physics>
-    </Canvas>
-  );
-}
 
 interface BandProps {
   maxSpeed?: number;
   minSpeed?: number;
 }
 
-function Band({ maxSpeed = 50, minSpeed = 10 }: BandProps) {
+extend({ MeshLineGeometry, MeshLineMaterial });
+useGLTF.preload("/tag.glb");
+useTexture.preload("/band.jpg");
+
+const HeroBand = ({ maxSpeed = 50, minSpeed = 10 }: BandProps) => {
   const band = useRef<THREE.Mesh>(null);
   // @ts-ignore
   const fixed = useRef<RigidBody | null>(null);
@@ -129,7 +108,7 @@ function Band({ maxSpeed = 50, minSpeed = 10 }: BandProps) {
           delta * (minSpeed + clampedDistance * (maxSpeed - minSpeed)),
         );
       });
-      // Calculate catmul curve
+      // Calculate call curve
       curve.points[0].copy(j3.current!.translation());
       curve.points[1].copy(j2.current!.lerped);
       curve.points[2].copy(j1.current!.lerped);
@@ -224,4 +203,6 @@ function Band({ maxSpeed = 50, minSpeed = 10 }: BandProps) {
       </mesh>
     </>
   );
-}
+};
+
+export default HeroBand;

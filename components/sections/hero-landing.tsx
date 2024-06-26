@@ -4,7 +4,7 @@ import { Illustration } from "@/components/sections/hero-illustration";
 import { MoveRight } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import Kraken3dTag from "@/components/kraken-3d-tag";
+import Hero3D from "@/components/sections/hero-3d";
 
 const HeroLanding = () => {
   return (
@@ -44,7 +44,7 @@ const HeroLanding = () => {
             </Button>
           </Link>
         </div>
-        <Kraken3dTag />
+        <Hero3D />
       </div>
     </Section>
   );
