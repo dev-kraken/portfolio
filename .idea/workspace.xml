@@ -5,11 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22a85a3c-1574-4983-86b9-3d8158a12ac9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/sitemap.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/action/email-checker.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/email-checker/_components/faq-section-email.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/email-checker/_components/form-email-checker.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/email-checker/_components/result-email-checker.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/email-checker/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/accordion.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/label.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/axios-wrapper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schema/zod/email-checker-form.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/actions.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/robots.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/robots.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/sections/info-landing.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/info-landing.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/sections/testimonials.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/testimonials.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +90,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.17890.13" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
       </set>
     </attachedChunks>
   </component>
@@ -105,7 +115,12 @@
       <workItem from="1718739063833" duration="15249000" />
       <workItem from="1718897746114" duration="2718000" />
       <workItem from="1718901678922" duration="887000" />
-      <workItem from="1718902661002" duration="178000" />
+      <workItem from="1718902661002" duration="402000" />
+      <workItem from="1718923780198" duration="4000" />
+      <workItem from="1719265809018" duration="1409000" />
+      <workItem from="1719353382212" duration="16000" />
+      <workItem from="1719353513864" duration="4099000" />
+      <workItem from="1719357998524" duration="2085000" />
     </task>
     <servers />
   </component>
