@@ -11,7 +11,7 @@ const HeroLanding = () => {
     <Section className="relative flex min-h-[85vh] flex-col items-center justify-center overflow-hidden bg-cover bg-center">
       <Illustration />
       <div className="container z-10 grid max-w-6xl grid-cols-1 items-start gap-14 text-start md:grid-cols-2 md:gap-0">
-        <div className="item-center col-span-2 flex h-full flex-col justify-center gap-10 sm:col-span-1">
+        <div className="sm:item-center col-span-2 flex h-full flex-col items-start justify-center gap-10 sm:col-span-1">
           <h2 className="text-balance text-start font-urban text-5xl font-bold leading-none tracking-normal sm:text-5xl md:text-6xl lg:text-7xl lg:leading-[5rem]">
             <span className="flex gap-4 lg:gap-8">Hi there !</span>
             I&#39;m{" "}
@@ -44,7 +44,9 @@ const HeroLanding = () => {
             </Button>
           </Link>
         </div>
-        <Hero3D />
+        <div className="size-full">
+          <Hero3D />
+        </div>
       </div>
     </Section>
   );
