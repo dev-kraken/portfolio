@@ -35,11 +35,11 @@ const FormEmailChecker = () => {
   }
 
   return (
-    <div className="mx-auto w-full sm:w-10/12">
+    <div className="overflow-x-scroll">
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
-          className="relative my-10 rounded-lg border border-gray-200/20 bg-slate-900/40 p-4"
+          className="relative mx-auto w-full rounded-lg border border-gray-200/20 bg-slate-900/40 p-4 sm:w-11/12"
         >
           <FormField
             control={form.control}
@@ -57,6 +57,8 @@ const FormEmailChecker = () => {
                         : "border-gray-300 focus:border-blue-500 focus:ring-blue-500 dark:border-blue-500 dark:focus:border-blue-500 dark:focus:ring-blue-500",
                       "block w-full rounded-lg border bg-gray-50 p-7 ps-10 text-sm text-gray-900 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400",
                     )}
+                    type="email"
+                    maxLength={30}
                     placeholder="example@devkraken.com"
                     {...field}
                   />
@@ -72,13 +74,13 @@ const FormEmailChecker = () => {
           >
             {isPending ? (
               <>
-                <Loader2 className="mx-auto mr-2 size-4 animate-spin" />
-                Checking...
+                <Loader2 className="mx-auto mr-0 size-4 animate-spin sm:mr-2" />
+                <span className="hidden sm:block">Checking...</span>
               </>
             ) : (
               <>
-                <MailSearch className="mx-auto mr-2 size-4" />
-                Verify Email
+                <MailSearch className="mx-auto mr-0 size-4 sm:mr-2" />
+                <span className="hidden sm:block">Verify Email</span>
               </>
             )}
           </Button>
