@@ -387,22 +387,6 @@ export function Illustration() {
             fill="#000"
           />
         </mask>
-        <g mask="url(#a)">
-          <path
-            d="M534 430c22.644 0 41-18.356 41-41s-18.356-41-41-41-41 18.356-41 41 18.356 41 41 41z"
-            fill="#000"
-            stroke="#fff"
-            strokeWidth={2.66667}
-          />
-          <path
-            d="M561.109 419.759L524.498 372.6H517.6v32.786h5.518v-25.778l33.659 43.488a41.047 41.047 0 004.332-3.337z"
-            fill="url(#paint5_linear_155_43)"
-          />
-          <path
-            d="M550.856 372.6h-5.467v32.8h5.467v-32.8z"
-            fill="url(#paint6_linear_155_43)"
-          />
-        </g>
         <defs>
           <filter
             id="filter0_d_155_43"

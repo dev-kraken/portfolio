@@ -8,7 +8,7 @@ import Hero3D from "@/components/sections/hero-3d";
 
 const HeroLanding = () => {
   return (
-    <Section className="relative flex min-h-[85vh] flex-col items-center justify-center overflow-hidden bg-cover bg-center">
+    <Section className="relative flex min-h-[75vh] flex-col items-center justify-center overflow-hidden bg-cover bg-center">
       <Illustration />
       <div className="container z-10 grid max-w-6xl grid-cols-1 items-start gap-14 text-start md:grid-cols-2 md:gap-0">
         <div className="item-center flex h-full flex-col justify-center gap-10">

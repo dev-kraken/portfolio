@@ -58,3 +58,9 @@ export type SidebarNavItem = {
       items: NavLink[];
     }
 );
+
+export type EmailCheckerHowWork = {
+  title: string;
+  icon: keyof typeof Icons;
+  description: string;
+};
