@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22a85a3c-1574-4983-86b9-3d8158a12ac9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/kraken-3d-tag.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/band.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tag.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/sections/hero-landing.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/hero-landing.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/sections/info-landing.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/info-landing.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/kraken-3d-tag.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/kraken-3d-tag.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +109,7 @@
       <workItem from="1719353382212" duration="16000" />
       <workItem from="1719353513864" duration="4099000" />
       <workItem from="1719357998524" duration="2085000" />
-      <workItem from="1719413551214" duration="2719000" />
+      <workItem from="1719413551214" duration="3778000" />
     </task>
     <servers />
   </component>
