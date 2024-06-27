@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="22a85a3c-1574-4983-86b9-3d8158a12ac9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/sections/hero-landing.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/hero-landing.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/email-checker.ts" beforeDir="false" afterPath="$PROJECT_DIR$/action/email-checker.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/robots.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/robots.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sitemap.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/sitemap.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +44,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/logixsoftware/Documents/Logix Software/IMP/New folder/portfolio/node_modules",
+    "last_opened_file_path": "/home/logixsoftware/Documents/Logix Software/IMP/New folder/portfolio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -50,7 +53,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "pnpm",
     "prettierjs.PrettierConfiguration.Package": "/home/logixsoftware/Documents/Logix Software/IMP/New folder/portfolio/node_modules/prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "settings.editor.selected.configurable": "preferences.rainbow.brackets.disable.when",
     "ts.external.directory.path": "/home/logixsoftware/Documents/Logix Software/IMP/New folder/portfolio/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   },
@@ -109,6 +112,13 @@
       <workItem from="1719353513864" duration="4099000" />
       <workItem from="1719357998524" duration="2085000" />
       <workItem from="1719413551214" duration="26782000" />
+      <workItem from="1719515562755" duration="530000" />
+      <workItem from="1719516516413" duration="22000" />
+      <workItem from="1719521087612" duration="29000" />
+      <workItem from="1719522854025" duration="17000" />
+      <workItem from="1719526567011" duration="61000" />
+      <workItem from="1719526634222" duration="112000" />
+      <workItem from="1719526886802" duration="2092000" />
     </task>
     <servers />
   </component>

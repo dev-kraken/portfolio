@@ -6,8 +6,10 @@ import Navbar from "@/components/layout/navbar";
 import MobileNav from "@/components/layout/mobile-nav";
 import { cn, constructMetadata } from "@/lib/utils";
 import Footer from "@/components/layout/footer";
+import Script from "next/script";
 
 export const metadata = constructMetadata();
+const GA_TRACKING_ID = "G-J7ELDS83NQ";
 
 export default function RootLayout({
   children,
@@ -16,6 +18,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+      />
+      <Script
+        id="google-analytics"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+               gtag('config', '${GA_TRACKING_ID}');
+            `,
+        }}
+      />
       <body
         className={cn(
           "min-h-screen font-sans antialiased",
