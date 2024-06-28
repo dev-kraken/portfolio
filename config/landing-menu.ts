@@ -1,4 +1,4 @@
-import {LandingMenu_D} from "@/types";
+import { LandingMenu_D } from "@/types";
 
 export const landingMenu: LandingMenu_D = [
   {
@@ -10,7 +10,11 @@ export const landingMenu: LandingMenu_D = [
     href: "/blog",
   },
   {
+    title: "Tools",
+    href: "/tools",
+  },
+  {
     title: "Project",
     href: "/projects",
   },
-]
+];
