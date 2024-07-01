@@ -11,11 +11,12 @@ interface ToolTemplateCardProps {
 const ToolTemplateCards = ({ templates }: ToolTemplateCardProps) => {
   return (
     <>
-      {templates.map((template) => {
+      {templates.map((template, index) => {
         return (
           <Link
-            href={`tools/${template.slug}`}
-            key={template.slug}
+            href={`/tools/${template.slug}`}
+            key={index}
+            prefetch={false}
             className="glass-container w-fit"
           >
             <div className="glow absolute -z-10 aspect-square w-full max-w-xl rounded-full bg-blue-400/20 blur-3xl" />

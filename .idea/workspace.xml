@@ -5,24 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22a85a3c-1574-4983-86b9-3d8158a12ac9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/tools/[tools-slug]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tools/_components/AiFromSection.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tools/_components/AiOutputSection.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tools/_components/tool-card.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tools/_components/tool-template-cards.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tools/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/card.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/textarea.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/ai-tools-template.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schema/zod/ai-form-schema.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/ai-template.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tools/[slug]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tools/_components/grid-form-output-ai.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/og/ai-tools.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/landing-menu.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/landing-menu.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blog/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/blog/[slug]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sitemap.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/sitemap.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tools/[tools-slug]/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tools/_components/tool-template-cards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/tools/_components/tool-template-cards.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tools/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/tools/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/ai-tools-template.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/ai-tools-template.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/ai-template.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/ai-template.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +27,8 @@
       <list>
         <option value="TypeScript TSX" />
         <option value="TypeScript TSX File" />
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -136,7 +129,10 @@
       <workItem from="1719532980230" duration="10000" />
       <workItem from="1719532995162" duration="4000" />
       <workItem from="1719585509708" duration="3017000" />
-      <workItem from="1719589550884" duration="20915000" />
+      <workItem from="1719589550884" duration="21138000" />
+      <workItem from="1719616675004" duration="54000" />
+      <workItem from="1719870029484" duration="5000" />
+      <workItem from="1719873192793" duration="4656000" />
     </task>
     <servers />
   </component>

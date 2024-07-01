@@ -13,4 +13,5 @@ export type AiTemplate = {
   slug: string;
   aiPrompt: string;
   form?: Form[];
+  keywords: string[];
 };

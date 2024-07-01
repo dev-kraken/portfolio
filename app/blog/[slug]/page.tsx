@@ -94,6 +94,7 @@ const Page = ({
                     width={42}
                     height={42}
                     className="rounded-full bg-white"
+                    loading="lazy"
                   />
                   <div className="flex-1 text-left leading-tight">
                     <p className="font-medium">{author.title}</p>
