@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22a85a3c-1574-4983-86b9-3d8158a12ac9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/tools/[slug]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tools/_components/grid-form-output-ai.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/og/ai-tools.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/blog/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/blog/[slug]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sitemap.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/sitemap.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tools/[tools-slug]/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tools/_components/tool-template-cards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/tools/_components/tool-template-cards.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tools/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/tools/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/ai-tools-template.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/ai-tools-template.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/ai-template.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/ai-template.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tools/_components/AiOutputSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/tools/_components/AiOutputSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tools/_components/tool-card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/tools/_components/tool-card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/copy-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/copy-button.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +125,8 @@
       <workItem from="1719589550884" duration="21138000" />
       <workItem from="1719616675004" duration="54000" />
       <workItem from="1719870029484" duration="5000" />
-      <workItem from="1719873192793" duration="4656000" />
+      <workItem from="1719873192793" duration="4881000" />
+      <workItem from="1719957318331" duration="710000" />
     </task>
     <servers />
   </component>

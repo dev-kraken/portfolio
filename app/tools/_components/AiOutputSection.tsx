@@ -20,7 +20,7 @@ const AiOutputSection = ({ className, aiOutput }: AiOutputSectionProps) => {
       title="Your Result"
       className={className}
       buttonText="Copy"
-      handelClick={() => navigator.clipboard.writeText(aiOutput)}
+      buttonValue={aiOutput}
     >
       <Editor
         ref={editorRef}

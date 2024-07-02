@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { Copy } from "lucide-react";
 import Image from "next/image";
+import { CopyButton } from "@/components/shared/copy-button";
 
 interface ToolCardProps {
   title: string;
@@ -17,7 +18,7 @@ interface ToolCardProps {
   className?: string;
   children?: React.ReactNode;
   buttonText?: string;
-  handelClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
+  buttonValue?: string;
   image?: string;
 }
 
@@ -27,7 +28,7 @@ const ToolCard = ({
   className,
   children,
   buttonText,
-  handelClick,
+  buttonValue,
   image,
 }: ToolCardProps) => {
   return (
@@ -53,10 +54,11 @@ const ToolCard = ({
             <CardDescription>{description}</CardDescription>
           </>
           {buttonText && (
-            <Button onClick={handelClick} size="default">
-              <Copy className="mr-2 size-4" />
-              {buttonText}
-            </Button>
+            <CopyButton
+              className="w-fit gap-1.5 p-4"
+              value={buttonValue as string}
+              text="Copy"
+            />
           )}
         </div>
       </CardHeader>
