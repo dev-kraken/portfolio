@@ -6,9 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { Copy } from "lucide-react";
 import Image from "next/image";
 import { CopyButton } from "@/components/shared/copy-button";
 
