@@ -5,13 +5,14 @@ import { MoveRight } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import Hero3D from "@/components/sections/hero-3d";
+import Image from "next/image";
 
 const HeroLanding = () => {
   return (
     <Section className="relative flex min-h-[85vh] flex-col items-center justify-center overflow-hidden bg-cover bg-center">
       <Illustration />
       <div className="container z-10 grid max-w-6xl grid-cols-1 items-start gap-14 text-start md:grid-cols-2 md:gap-0">
-        <div className="sm:item-center col-span-2 flex h-full flex-col items-start justify-center gap-10 sm:col-span-1">
+        <div className="sm:item-center relative col-span-2 flex h-full flex-col items-start justify-center gap-10 sm:col-span-1">
           <h2 className="text-balance text-start font-urban text-5xl font-bold leading-none tracking-normal sm:text-5xl md:text-6xl lg:text-7xl lg:leading-[5rem]">
             <span className="flex gap-4 lg:gap-8">Hi there !</span>
             I&#39;m{" "}
@@ -44,7 +45,7 @@ const HeroLanding = () => {
             </Button>
           </Link>
         </div>
-        <div className="size-full">
+        <div className="mx-auto hidden w-full lg:block">
           <Hero3D />
         </div>
       </div>

@@ -33,16 +33,16 @@ Most modern Linux filesystems (like ext4) have ACL support enabled by default. I
 To set the ACLs for an existing directory and ensure all files and subdirectories within it inherit the permissions:
 
 ```bash
-sudo setfacl -R -m u:devkraken:rwx /srv/http/renewal-ucr
-sudo setfacl -R -m g:http:rwx /srv/http/renewal-ucr
+sudo setfacl -R -m u:devkraken:rwx /srv/http/dir-name
+sudo setfacl -R -m g:http:rwx /srv/http/dir-name
 ```
 ## Set Default ACLs for New Files and Directories
 
-To ensure that new files and directories created within the renewal-ucr directory automatically inherit the correct permissions:
+To ensure that new files and directories created within the dir-name directory automatically inherit the correct permissions:
 
 ```bash
-sudo setfacl -d -m u:devkraken:rwx /srv/http/renewal-ucr
-sudo setfacl -d -m g:http:rwx /srv/http/renewal-ucr
+sudo setfacl -d -m u:devkraken:rwx /srv/http/dir-name
+sudo setfacl -d -m g:http:rwx /srv/http/dir-name
 ```
 
 ### Verify ACLs
@@ -50,13 +50,13 @@ sudo setfacl -d -m g:http:rwx /srv/http/renewal-ucr
 You can verify the ACLs using the getfacl command:
 
 ```bash
-getfacl /srv/http/renewal-ucr
+getfacl /srv/http/dir-name
 ```
 
 The output should look like this:
 
 ```text
-# file: srv/http/renewal-ucr
+# file: srv/http/dir-name
 # owner: http
 # group: http
 user::rwx
@@ -70,20 +70,20 @@ default:other::r-x
 
 ### Creating a New File to Test Inherited Permissions
 
-To verify that the settings are applied correctly, create a new file in the renewal-ucr directory:
+To verify that the settings are applied correctly, create a new file in the dir-name directory:
 
 ```bash
-touch /srv/http/renewal-ucr/newfile.txt
+touch /srv/http/dir-name/newfile.txt
 ```
 Then check the permissions of the new file:
 
 ```bash
-getfacl /srv/http/renewal-ucr/newfile.txt
+getfacl /srv/http/dir-name/newfile.txt
 ```
 The output should show:
 
 ```text
-# file: srv/http/renewal-ucr/newfile.txt
+# file: srv/http/dir-name/newfile.txt
 # owner: devkraken
 # group: http
 user::rwx
@@ -96,4 +96,4 @@ This indicates that the new file has inherited the correct permissions for the d
 
 ### Conclusion
 
-By setting the default ACLs, you ensure that any new files or directories created within the renewal-ucr directory will automatically have the specified permissions. This approach helps maintain consistent access control for shared directories in a multi-user environment.
+By setting the default ACLs, you ensure that any new files or directories created within the dir-name directory will automatically have the specified permissions. This approach helps maintain consistent access control for shared directories in a multi-user environment.

@@ -7,7 +7,7 @@ import Testimonials from "@/components/sections/testimonials";
 
 export default function Home() {
   return (
-    <main>
+    <main className="flex flex-1 flex-col overflow-hidden">
       <HeroLanding />
       <BentoGrid />
       <InfoLanding data={infos[0]} reverse={true} />
