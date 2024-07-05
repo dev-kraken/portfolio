@@ -6,9 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="22a85a3c-1574-4983-86b9-3d8158a12ac9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/robots.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/robots.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/sections/hero-illustration.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/hero-illustration.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blog/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/blog/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/projects/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/projects/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tools/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/tools/[slug]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tools/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/tools/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/blog-posts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/blog-posts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/header-section-h1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/header-section-h1.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/configuring-multiple-git-account.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/configuring-multiple-git-account.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/setting-acls-in-arch.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/setting-acls-in-arch.mdx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +49,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/logixsoftware/Documents/Logix Software/IMP/New folder/portfolio",
+    "last_opened_file_path": "/home/logixsoftware/Documents/Logix Software/IMP/New folder/portfolio/components/shared",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -65,11 +70,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/shared" />
       <recent name="$PROJECT_DIR$/content/blog" />
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/components/shared" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/images/avatars" />
@@ -133,7 +138,7 @@
       <workItem from="1720043145972" duration="441000" />
       <workItem from="1720048224552" duration="840000" />
       <workItem from="1720107502498" duration="1448000" />
-      <workItem from="1720146008053" duration="4524000" />
+      <workItem from="1720146008053" duration="5380000" />
     </task>
     <servers />
   </component>

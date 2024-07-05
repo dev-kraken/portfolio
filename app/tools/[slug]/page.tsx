@@ -3,7 +3,7 @@ import Section from "@/components/shared/section";
 import MaxWidthWrapper from "@/components/shared/max-width-wrapper";
 import { AiToolsTemplate } from "@/config/ai-tools-template";
 import { AiTemplate } from "@/types/ai-template";
-import HeaderSection from "@/components/shared/header-section";
+import HeaderSectionH1 from "@/components/shared/header-section-h1";
 import { Metadata } from "next";
 import { constructMetadata } from "@/lib/utils";
 import { notFound } from "next/navigation";
@@ -59,7 +59,7 @@ const Page = ({ params }: ParamsProps) => {
     <main className="my-14 flex flex-1 items-center">
       <MaxWidthWrapper>
         <Section className="mb-10">
-          <HeaderSection
+          <HeaderSectionH1
             label="Current Template"
             title={getCurrentToolTemplate.name}
           />

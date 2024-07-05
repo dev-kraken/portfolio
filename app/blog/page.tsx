@@ -2,13 +2,13 @@ import React from "react";
 import { allPosts } from "contentlayer/generated";
 import { compareDesc } from "date-fns";
 import BlogPosts from "@/components/blog-posts";
-import {constructMetadata} from "@/lib/utils";
+import { constructMetadata } from "@/lib/utils";
 
 export const metadata = constructMetadata({
-    title: "Dev Kraken's Blog – Insights and Innovations in Full Stack Development",
-    description: "Explore articles and tutorials on full stack development, covering the latest trends and best practices in JavaScript, Next.js, React, and more.",
+  title: "Full Stack Development Basics: A Beginner's Guide",
+  description:
+    "Explore articles and tutorials on full stack development, covering the latest trends and best practices in JavaScript, Next.js, React, and more.",
 });
-
 
 const Page = () => {
   const posts = allPosts

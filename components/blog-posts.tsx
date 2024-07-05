@@ -14,7 +14,7 @@ const BlogPosts = ({ posts }: BlogPostProps) => {
   return (
     <MaxWidthWrapper className="space-y-10 py-6 md:py-10">
       <section>
-        <h2 className="mb-4 font-heading text-3xl">Last Post</h2>
+        <h1 className="mb-4 font-heading text-3xl">Last Post</h1>
         <article className="relative grid grid-cols-1 gap-6 md:grid-cols-2">
           <div>
             {posts[0].image && (
