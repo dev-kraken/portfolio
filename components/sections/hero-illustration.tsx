@@ -144,7 +144,7 @@ export function Illustration() {
         />
         <g clipPath="url(#clip0_155_13)">
           <mask
-            id="a"
+            id="a1"
             style={{
               maskType: "alpha",
             }}
@@ -372,7 +372,7 @@ export function Illustration() {
           strokeLinejoin="round"
         />
         <mask
-          id="a"
+          id="a2"
           style={{
             maskType: "alpha",
           }}

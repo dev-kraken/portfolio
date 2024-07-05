@@ -74,6 +74,9 @@ export function constructMetadata({
         follow: false,
       },
     }),
+    alternates: {
+      canonical: new URL(siteConfig.url),
+    },
   };
 }
 
