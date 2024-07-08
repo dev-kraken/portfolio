@@ -3,6 +3,8 @@ import { constructMetadata } from "@/lib/utils";
 
 export const metadata = constructMetadata({
   title: "Dev Kraken's Projects",
+  description:
+    "Explore a showcase of my projects, where I apply my full stack development skills to create innovative and effective solutions. Discover how I turn ideas into reality.",
 });
 const Page = () => {
   return (

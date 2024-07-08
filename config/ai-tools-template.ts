@@ -33,7 +33,7 @@ export const AiToolsTemplate: AiTemplate[] = [
   },
   {
     name: "Blog Content",
-    desc: "Generate blog content based on a given topic and outline in a rich text editor format.",
+    desc: "Effortlessly create engaging blog content with our rich text editor! Simply input your topic and outline for SEO-friendly posts that captivate readers.",
     category: "Blog",
     icon: "https://cdn-icons-png.flaticon.com/128/4905/4905454.png",
     slug: "blog-content-generation",
@@ -63,7 +63,7 @@ export const AiToolsTemplate: AiTemplate[] = [
   },
   {
     name: "Blog Topic Ideas",
-    desc: "Generate top 5 blog topic ideas based on niche in a bullet point format.",
+    desc: "Unleash your niche's potential with our top 5 blog topic ideas! Craft compelling content that resonates & boosts engagement. Explore now!",
     category: "Blog",
     icon: "https://cdn-icons-png.flaticon.com/128/11497/11497847.png",
     slug: "blog-topic-idea",
@@ -87,7 +87,7 @@ export const AiToolsTemplate: AiTemplate[] = [
   },
   {
     name: "Youtube SEO Title",
-    desc: "Generate SEO optimized YouTube video titles based on keywords and outline in HTML tags format.",
+    desc: "Boost your YouTube success! Get clickable, SEO-friendly video titles tailored to your keywords. Rank higher & reel in views with our expert HTML title generator!",
     category: "YouTube Tools",
     icon: "https://cdn-icons-png.flaticon.com/128/402/402075.png",
     slug: "youtube-seo-title",
@@ -147,7 +147,7 @@ export const AiToolsTemplate: AiTemplate[] = [
   },
   {
     name: "Youtube Tags",
-    desc: "Generate 10 YouTube tags based on title and outline in a bullet point format.",
+    desc: "Boost your YouTube reach with tailor-made tags! Discover the top 10 tags from your video title and content outline—click for instant tag inspiration!",
     category: "YouTube Tools",
     icon: "https://cdn-icons-png.flaticon.com/128/4674/4674918.png",
     slug: "youtube-tag",
@@ -177,7 +177,7 @@ export const AiToolsTemplate: AiTemplate[] = [
   },
   {
     name: "Rewrite Article (Plagiarism Free)",
-    desc: "Rewrite articles or blog posts while ensuring they are plagiarism-free and bypass AI detectors.",
+    desc: "Revamp your content with our article rewriter! Get original, plagiarism-free articles that pass AI checks. Refresh your blog now!",
     icon: "https://cdn-icons-png.flaticon.com/128/3131/3131607.png",
     category: "Rewriting Tool",
     slug: "rewrite-article",
@@ -249,7 +249,7 @@ export const AiToolsTemplate: AiTemplate[] = [
   },
   {
     name: "Instagram Post Generator",
-    desc: "Generate Instagram posts based on provided keywords and output them in a rich text editor format.",
+    desc: "Create stunning Instagram posts in minutes! Just input keywords & our rich text editor will craft perfect content to boost your social media game. Try it now!",
     icon: "https://cdn-icons-png.flaticon.com/128/15713/15713420.png",
     category: "Instagram Tools",
     slug: "instagram-post-generator",
@@ -273,7 +273,7 @@ export const AiToolsTemplate: AiTemplate[] = [
   },
   {
     name: "Instagram Hashtag Generator",
-    desc: "Generate 15 Instagram hashtags based on provided keywords in a bullet point format.",
+    desc: "Boost your Instagram presence! Get 15 tailored hashtags for your posts. Just enter your keywords & elevate your engagement. Click now for hashtag success!",
     icon: "https://cdn-icons-png.flaticon.com/128/7045/7045432.png",
     category: "Instagram Tools",
     slug: "instagram-hash-tag-generator",
@@ -321,7 +321,7 @@ export const AiToolsTemplate: AiTemplate[] = [
   },
   {
     name: "English Grammar Check",
-    desc: "Correct your English grammar by providing the text for analysis and improvement.",
+    desc: "Revamp your English - Upload your text and get ai-powered grammar analysis for flawless writing. Perfect your prose now!",
     icon: "https://cdn-icons-png.flaticon.com/128/12596/12596700.png",
     category: "English Tools",
     slug: "english-grammar-checker",

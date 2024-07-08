@@ -13,7 +13,7 @@ const HeroLanding = () => {
       <Illustration />
       <div className="container z-10 grid max-w-6xl grid-cols-1 items-start gap-14 text-start md:grid-cols-2 md:gap-0">
         <div className="sm:item-center relative col-span-2 flex h-full flex-col items-start justify-center gap-10 sm:col-span-1">
-          <h2 className="text-balance text-start font-urban text-5xl font-bold leading-none tracking-normal sm:text-5xl md:text-6xl lg:text-7xl lg:leading-[5rem]">
+          <h1 className="text-balance text-start font-urban text-5xl font-bold leading-none tracking-normal sm:text-5xl md:text-6xl lg:text-7xl lg:leading-[5rem]">
             <span className="flex gap-4 lg:gap-8">Hi there !</span>
             I&#39;m{" "}
             <span className="text-gradient_indigo-purple font-extrabold">
@@ -24,7 +24,7 @@ const HeroLanding = () => {
             <span className="text-gradient_indigo-purple font-extrabold">
               Developer.
             </span>
-          </h2>
+          </h1>
           <p
             className="max-w-6xl text-balance leading-normal text-muted-foreground sm:text-xl sm:leading-8"
             style={{ animationDelay: "0.35s", animationFillMode: "forwards" }}

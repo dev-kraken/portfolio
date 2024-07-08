@@ -32,7 +32,7 @@ export async function generateMetadata({
   const { title, description, image, keywords } = post;
 
   return constructMetadata({
-    title: `${title} –Dev Kraken`,
+    title: `${title}`,
     description: description,
     image,
     keywords: keywords,
