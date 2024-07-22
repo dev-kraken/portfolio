@@ -43,6 +43,6 @@ next-env.d.ts
 public/sw.js
 public/sw.js.map
 public/workbox-*.js
-public/workbox-cca50194.js.map
-public/swe-worker-development.js
-public/fallback-development.js
+public/workbox-*.js.map
+public/swe-worker-*.js
+public/fallback-*.js
