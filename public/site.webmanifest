@@ -1,6 +1,7 @@
 {
   "name": "Dev Kraken",
-  "short_name": "Dev Kraken",
+  "short_name": "Dev Kraken Portfolio",
+  "description": "This is my portfolio website",
     "icons": [
       {
         "src": "windows11/SmallTile.scale-100.png",
@@ -451,7 +452,10 @@
         "sizes": "1024x1024"
       }
     ],
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
-  "display": "standalone"
+  "theme_color": "#FFFFFF",
+  "background_color": "#FFFFFF",
+  "start_url": "/",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait"
 }
