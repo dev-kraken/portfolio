@@ -29,7 +29,7 @@ const Navbar = ({ scroll = false }: NavBarProps) => {
       >
         <div className="flex gap-6 md:gap-10">
           <Link href="/" className="flex items-center space-x-2">
-            <Logo width={30} color="#fff" />
+            <Logo width={40} color="#fff" />
             <span className="font-urban text-xl font-bold">Dev Kraken</span>
           </Link>
           {landingMenu && landingMenu.length > 0 ? (
